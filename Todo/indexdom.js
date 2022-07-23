@@ -7,7 +7,7 @@ function removeTodo(event){
 }
 
 function addTodo() {
-    // todo input
+    // todo
   const todo = document.createElement('div');
   todo.classList.add('todo');
 
@@ -21,7 +21,6 @@ function addTodo() {
   button.classList.add('remove-todo');
   button.innerHTML = 'ลบ';
   button.addEventListener('click', removeTodo);
-
 
    // text, button => todo
    todo.append(text, button);
